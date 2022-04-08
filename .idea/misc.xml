@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_cal.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_init.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_list.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_list_custom.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_next.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_research.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_research_result.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_research_third.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_researchnext.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_splash.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/list_custom_item.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

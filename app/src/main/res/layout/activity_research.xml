@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResearchActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Research Page"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/zzanggu"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아래 중 선호하는 동물 종류를 선택하여주세요! (중복 가능)"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <CheckBox
+            android:id="@+id/animal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강아지"
+            />
+        <CheckBox
+            android:id="@+id/animal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고양이"
+            />
+        <CheckBox
+            android:id="@+id/animal3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소동물(햄스터, 다람쥐 등)"
+            />
+        <CheckBox
+            android:id="@+id/animal4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="파충류(이구아나, 뱀 등)"
+            />
+        <CheckBox
+            android:id="@+id/animal5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기타(거미, 호랑이 등)"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="NEXT PAGE"
+        />
+</LinearLayout>
