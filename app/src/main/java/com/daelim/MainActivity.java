@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Button bt_go_research = findViewById(R.id.bt_go_research);
         Button bt_list = findViewById(R.id.bt_list);
         Button bt_custom = findViewById(R.id.bt_custom);
+        Button bt_shared = findViewById(R.id.bt_shared);
         bu_cal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,6 +62,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,ListCustomActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        bt_shared.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,SharedPreferenceActivity.class);
                 startActivity(intent);
                 finish();
             }

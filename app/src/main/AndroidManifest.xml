@@ -10,12 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Daseul">
         <activity
+            android:name=".SharedPreferenceActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListCustomActivity"
             android:exported="false" />
         <activity
             android:name=".ListActivity"
             android:exported="false" />
-
         <activity
             android:name=".ResearchResultActivity"
             android:exported="false" />
@@ -33,12 +35,12 @@
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"

@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:id="@+id/cacul"
-            android:text="계산기"
+            android:text="@string/cal"
             android:textSize="30dp"
             />
         <Button
@@ -54,6 +54,15 @@
             android:layout_height="wrap_content"
             android:text="주소록"
             android:textSize="30dp"
+            android:layout_margin="2dp"
+            android:layout_weight="0.25"
+            />
+        <Button
+            android:id="@+id/bt_shared"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sharedPreferenceTest"
+            android:textSize="24dp"
             android:layout_margin="2dp"
             android:layout_weight="0.25"
             />

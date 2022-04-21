@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">daseul</string>
+    <string name="cal" translatable="false">계산기로 이동</string>
 </resources>
