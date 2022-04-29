@@ -1,6 +1,7 @@
 package com.daelim;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Button bt_list = findViewById(R.id.bt_list);
         Button bt_custom = findViewById(R.id.bt_custom);
         Button bt_shared = findViewById(R.id.bt_shared);
+        Button bt_call = findViewById(R.id.bt_call);
+        Button bt_web = findViewById(R.id.bt_web);
         bu_cal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,6 +73,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,SharedPreferenceActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        bt_call.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_DIAL);
+                i.setData(Uri.parse("tel:010-2345-1234"));
+                startActivity(i);
+            }
+        });
+        bt_web.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,WebActivity.class);
                 startActivity(intent);
                 finish();
             }

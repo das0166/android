@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_cal.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_call.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_hared_preference.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_init.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_list.xml" value="0.22" />
@@ -17,6 +18,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_shared.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_shared_preference.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_splash.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/activity_web.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/daseul/app/src/main/res/layout/list_custom_item.xml" value="0.14130434782608695" />
       </map>
     </option>
