@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Button bt_shared = findViewById(R.id.bt_shared);
         Button bt_call = findViewById(R.id.bt_call);
         Button bt_web = findViewById(R.id.bt_web);
+        Button bt_service = findViewById(R.id.bt_service);
         bu_cal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,6 +90,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,WebActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        bt_service.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,ServiceActivity.class);
                 startActivity(intent);
                 finish();
             }

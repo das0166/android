@@ -11,8 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Daseul"
-        android:usesCleartextTraffic="true"
-        >
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false" />
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            />
         <activity
             android:name=".WebActivity"
             android:exported="false" />

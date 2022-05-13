@@ -84,6 +84,15 @@
             android:layout_margin="2dp"
             android:layout_weight="0.25"
             />
+        <Button
+            android:id="@+id/bt_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="서비스 테스트"
+            android:textSize="20dp"
+            android:layout_margin="2dp"
+            android:layout_weight="0.25"
+            />
 
     </LinearLayout>
 
